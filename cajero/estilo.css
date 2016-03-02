@@ -1,0 +1,42 @@
+body
+{
+	background: #efefef;
+
+}
+
+header
+{
+	border-bottom: 4px solid red;
+}
+
+header img
+{
+	width: 20%;
+	display: inline-block;
+}
+
+header h1
+{
+	width: 75%;
+	display: inline-block;
+	text-align: center;
+	text-shadow: 1px 1px 3px black;
+	vertical-align: top;
+	color: #c0392b;
+	font-family: arial;
+	font-style: italic;
+
+}
+div.billetes div
+{
+	width: 18%;
+	display: inline-block;
+}
+
+div.billetes div img
+{
+	width: 90%;
+	margin: -10px 5%;
+}
+
+
