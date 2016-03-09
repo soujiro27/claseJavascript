@@ -1,0 +1,48 @@
+
+body
+{
+	background: #2c3e50;	
+}
+
+section
+{
+	display: block;
+	margin: 20px auto;
+	padding: 3% 1%;
+	width: 90%;
+}
+
+input
+{
+	background: #2c3e50;
+	border: none;
+	display: block;
+	margin: 30px auto;
+	padding: 1%;
+	width: 40%;
+}
+
+.linea
+{
+	border-bottom: 3px solid #27ae60;
+	transition: all 1s;	
+}
+
+
+footer
+{
+	color: #fff;
+	text-align: center;
+	text-shadow: 2px 2px 3px black;
+}
+
+button
+{
+	background: orange;
+	border: none;
+	color: #fff;
+	display: block;
+	margin: 20px auto;
+	padding: .5%;
+	width: 20%;
+}

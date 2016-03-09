@@ -1,0 +1,48 @@
+header
+{
+	background: #2c3e50;
+	color: #fff;
+}
+
+header img
+{
+	width: 20%;
+	display: inline-block;
+}
+
+header h1
+{
+	width: 68%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin: 0;
+	font-size: 60px;
+	font-style: italic;
+	font-family: arial;
+}
+
+header div.menu
+{
+	width: 3%;
+	display:  inline-block;
+	background:#fff;
+	color:#2c3e50;
+	text-align: center;
+	vertical-align:  top;
+	margin-top: 20px;
+}
+nav ul li
+{
+	list-style: none;
+	padding: 1%;
+	margin: 3px 0;
+	border-bottom: 1px solid rgba(0,0,0,.5);
+	width: 10%;
+}
+
+ul
+{
+	margin: 0;
+	padding: 0;
+}
