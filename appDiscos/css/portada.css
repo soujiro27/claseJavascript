@@ -46,3 +46,61 @@ ul
 	margin: 0;
 	padding: 0;
 }
+
+nav 
+{	
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	height: 300px;
+	left: -350px;
+	position: absolute;
+	top: 90px;
+	width: 30%;
+	transition: all 2s;
+}
+
+body
+{
+	position: relative;
+}
+
+section.portadaDiscos div
+{
+	width: 15%;
+	display: inline-block;
+	margin: 1% 9%;
+	cursor:pointer;
+}
+
+section.portadaDiscos img
+{
+	width: 90%;
+}
+
+.muestraMenu
+{
+	left:0;
+	transition: all 2s;
+}
+
+section.portadaDiscos button
+{
+	display: block;
+	padding: 1%;
+	background: orange;
+	color:#fff;
+	border:none;
+	width: 40%;
+	margin:1% auto;
+	border-radius: 8px;
+}
+
+table 
+{
+	display: none;
+}
+
+.desabilitado
+{
+	background: rgba(0,0,0,.5) !important;
+}
