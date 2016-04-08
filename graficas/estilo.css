@@ -1,0 +1,90 @@
+body
+{
+	background: #efefef;
+}
+
+header
+{
+	background: #26bce0;
+	color:#fff;
+	text-align: center;
+}
+
+header h1
+{
+	margin:0;
+	padding:3%;
+}
+
+nav
+{
+	background: #265555;
+	position:relative;
+	padding:.5%;
+}
+
+
+nav ul.menuPrincipal li
+{
+ display: inline-block;
+ color:#fff;
+ margin: 1% 5%;
+}
+
+ul.menuPrincipal ul
+{
+	position:absolute;
+	background: #265555;
+	margin:.2%;
+	padding: 0;
+	border: 3px solid orange;
+	border-radius: 10px;
+	display: none;
+}
+
+ul.menuPrincipal ul li
+{	
+	display: block;
+	padding:4%;
+	margin: 2%;
+}
+
+
+
+ul.menuPrincipal li:hover > ul
+{
+	display: block;
+}
+
+th
+{
+	background: orange;
+	color: #fff;
+	text-align: center;
+	width: 18%;
+	padding:1%; 
+}
+td input
+{
+	width: 50%;
+	display: block;
+	margin: 1% auto;
+	border: none;
+	border-bottom: 2px solid black;
+	background: #efefef;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
